@@ -1,0 +1,18 @@
+{
+  "name": "new-portfolio",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": " gridsome build && DEPLOY_ENV=GH_PAGES gridsome build",
+    "predeploy": "npm run build",
+    "deploy": "git subtree push --prefix docs origin gh-pages"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "gridsome": "^0.7.0",
+    "prismjs": "^1.17.1",
+    "vue-prism-component": "^1.1.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,89 @@
+.text-left {
+	text-align: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.t-overflow{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+a{
+	color: #3098DD;
+}
+
+a:visited{
+	color: #39B54B;
+}
+
+.aligner-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1, .h1 {
+	font-size: 2rem;
+}
+
+h2, .h2 {
+	font-size: 1.5rem;
+}
+
+h3, .h3 {
+	font-size: 1.25rem;
+}
+
+h4, .h4 {
+	font-size: 1rem;
+}
+
+h5, .h5 {
+	font-size: 1rem;
+}
+
+h6, .h6 {
+	font-size: 1rem;
+}
+
+p{
+	font-size: 1em;
+}
+
+@media (min-width: 576px) {
+	h1, .h1 {
+		font-size: 2.5rem;
+	}
+
+	h2, .h2 {
+		font-size: 2rem;
+	}
+
+	h3, .h3 {
+		font-size: 1.75rem;
+	}
+
+	h4, .h4 {
+		font-size: 1.5rem;
+	}
+
+	h5, .h5 {
+		font-size: 1.25rem;
+	}
+
+	h6, .h6 {
+		font-size: 1rem;
+	}
+
+	p{
+		font-size: 1em;
+	}
+}
